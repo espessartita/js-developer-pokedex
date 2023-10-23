@@ -1,7 +1,9 @@
 /*Roboto font*/
 * {
-    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -14,6 +16,22 @@ body{
     padding: 1rem;
     background-color: #fff;
 }
+
+.foot {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
 @media screen and (min-width: 992px){
     .content {
         max-width: 992px;
